@@ -14,3 +14,7 @@
 * WAS -> 필터 -> ... -> 컨트롤러 인 경우 dispatcherTypes = REQUEST
 * WAS(오류로 인한 호출 /errorpage/500) -> 필터 -> ... -> 컨트롤러 인 경우 dispatcherTypes = ERROR
 * dispatcherTypes를 설정하여 필터링 하고자하는 dispatcherTypes 설정 가능
+
+## 스프링 부트 - 오류 페이지1
+* 아무것도 설정을 하지않아도 BasicErrorController에서 오류페이지로 이동
+* 404.html, 400.html, 500.html, 4xx.html, 5xx.html 등으로 자동 이동
