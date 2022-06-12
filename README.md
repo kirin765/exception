@@ -25,3 +25,7 @@
 ## API 예외처리 - 시작
 * @RequestMapping의 produces = MediaType.APPLICATION_JSON_VALUE로 설정하여
 * application/json 요청에 대해서만 에러처리
+
+## 스프링 부트 기본 오류 처리
+* BasicErrorController에서 Header의 Accept에 따라 오류의 반환결과 달리 할 수 있음
+* text/html -> html 전송, application/json -> json 형식으로 전송
