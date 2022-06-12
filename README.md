@@ -21,3 +21,7 @@
 
 ## 스프링 부트 - 오류 페이지2
 * 다양한 오류 정보를 넘겨주어 뷰에서 표시 가능
+
+## API 예외처리 - 시작
+* @RequestMapping의 produces = MediaType.APPLICATION_JSON_VALUE로 설정하여
+* application/json 요청에 대해서만 에러처리
