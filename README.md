@@ -38,3 +38,7 @@
 ## HandlerExceptionResolver 활용
 * HandlerExceptionResolver를 통해 예외 처리시 WAS, 서블릿 컨테이너 처리하지않고 간단히 처리가능
 * WAS까지 예외가 갔다가 /error 호출후 BasicErrorController이 호출되는 등의 작업 없이 예외 처리
+
+## 스프링이 제공하는 ExceptionResolver1
+* ResponseStatusExceptionResolver
+* @ResponStatus를 통해 상태코드 지정
