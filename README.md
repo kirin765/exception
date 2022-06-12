@@ -33,4 +33,8 @@
 ## HandlerExceptionResolver 시작
 * HandlerExceptionResolver에서 에러에 따른 처리 가능
 * IllegalArgumentException을 500에서 400으로 변환 가능
-* 그외 에러에 따른 view, API 처리 가능 
+* 그외 에러에 따른 view, API 처리 가능
+
+## HandlerExceptionResolver 활용
+* HandlerExceptionResolver를 통해 예외 처리시 WAS, 서블릿 컨테이너 처리하지않고 간단히 처리가능
+* WAS까지 예외가 갔다가 /error 호출후 BasicErrorController이 호출되는 등의 작업 없이 예외 처리
