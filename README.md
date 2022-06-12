@@ -29,3 +29,8 @@
 ## 스프링 부트 기본 오류 처리
 * BasicErrorController에서 Header의 Accept에 따라 오류의 반환결과 달리 할 수 있음
 * text/html -> html 전송, application/json -> json 형식으로 전송
+
+## HandlerExceptionResolver 시작
+* HandlerExceptionResolver에서 에러에 따른 처리 가능
+* IllegalArgumentException을 500에서 400으로 변환 가능
+* 그외 에러에 따른 view, API 처리 가능 
