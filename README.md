@@ -46,3 +46,7 @@
 ## 스프링이 제공하는 ExceptionResolver2
 * DefaultHandlerExceptionResolver
 * TypeMismatchException 등을 500에서 400으로 바꾸는 등 처리
+
+## @ExceptionHandler
+* 가장 우선 순위 높은 ExceptionHandlerExceptionResolver
+* @ExceptionHandler을 통해 컨트롤러 내 지정한 예외별 메소드 실행 및 리턴 작성 가능
