@@ -42,3 +42,7 @@
 ## 스프링이 제공하는 ExceptionResolver1
 * ResponseStatusExceptionResolver
 * @ResponStatus를 통해 상태코드 지정
+
+## 스프링이 제공하는 ExceptionResolver2
+* DefaultHandlerExceptionResolver
+* TypeMismatchException 등을 500에서 400으로 바꾸는 등 처리
