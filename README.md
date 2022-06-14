@@ -50,3 +50,7 @@
 ## @ExceptionHandler
 * 가장 우선 순위 높은 ExceptionHandlerExceptionResolver
 * @ExceptionHandler을 통해 컨트롤러 내 지정한 예외별 메소드 실행 및 리턴 작성 가능
+
+## @ControllerAdvice
+* 컨트롤러에서 @ExceptionHandler처리된 메소드를 따로 분리
+* 패키지, 컨트롤러별 적용범위 지정 가능
